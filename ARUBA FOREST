@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArubaForest - Ayurvedic Skin Care</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #fefdf9;
+            color: #3d5a3d;
+        }
+        header {
+            background-color: #e6f4ea;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #3d5a3d;
+            font-weight: 600;
+        }
+        nav a:hover {
+            color: #a67c00;
+        }
+        .hero {
+            background: url('https://images.unsplash.com/photo-1556228720-198d5beccf47?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80') no-repeat center center/cover;
+            height: 70vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+            font-size: 2.5em;
+        }
+        .section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .button {
+            background-color: #d4af37;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 30px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background 0.3s;
+            text-decoration: none;
+        }
+        .button:hover {
+            background-color: #b89027;
+        }
+        footer {
+            background-color: #e6f4ea;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+            font-size: 0.9em;
+        }
+        .check-now-section {
+            background-color: #fafafa;
+            padding: 30px;
+            border-radius: 15px;
+            margin: 30px auto;
+            max-width: 600px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>ArubaForest</h1>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#products">Products</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+        <a href="#check">Check Now</a>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    Nature's Secret for Radiant Skin
+</section>
+
+<section class="section" id="about">
+    <h2>About Us</h2>
+    <p>ArubaForest brings the purest ayurvedic formulations to rejuvenate your skin, naturally and effectively.</p>
+</section>
+
+<section class="section" id="products">
+    <h2>Our Products</h2>
+    <p>Discover herbal creams, essential oils, and face masks made from natural ingredients.</p>
+</section>
+
+<section class="section" id="blog">
+    <h2>Blog</h2>
+    <p>Read our latest articles on Ayurvedic skincare and wellness tips.</p>
+</section>
+
+<section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <p>Connect with us for any queries. WhatsApp support available!</p>
+</section>
+
+<section class="section" id="check">
+    <h2>Check Your Skin</h2>
+    <div class="check-now-section">
+        <p>Upload your photo or use live camera to check your skin health!</p>
+        <input type="file" accept="image/*" capture="environment">
+        <br><br>
+        <button class="button">Take a Live Photo</button>
+    </div>
+</section>
+
+<footer>
+    &copy; 2025 ArubaForest. All rights reserved.
+</footer>
+
+</body>
+</html>
